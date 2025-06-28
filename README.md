@@ -1,16 +1,18 @@
-### Javascript 👋
+# Blog Assets
 
-<!--
-**bukitbesi/bukitbesi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+This repository hosts static assets for my Blogger theme, including:
 
-Here are some ideas to get you started:
+- Minified CSS (`theme.min.css`)
+- Dark mode support (`dark-mode.css`)
+- JavaScript for UI and dark mode toggle
+- Fonts and images
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Usage
+
+Link to these files in your Blogger theme:
+
+```html
+<link rel="stylesheet" href="https://your-username.github.io/blog-assets/css/theme.min.css" />
+<link rel="stylesheet" href="https://your-username.github.io/blog-assets/css/dark-mode.css" />
+<script src="https://your-username.github.io/blog-assets/js/main.js" defer></script>
+<script src="https://your-username.github.io/blog-assets/js/dark-toggle.js" defer></script>

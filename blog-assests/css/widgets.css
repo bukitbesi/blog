@@ -1,1 +1,12 @@
+.post-card{background:var(--post-card-bg);border:1px solid var(--border-color);border-radius:8px;padding:1.5rem;margin-bottom:2rem;transition:transform .2s,box-shadow .2s;display:flex;flex-direction:column}
+.post-card:hover{transform:translateY(-5px);box-shadow:0 10px 20px rgba(0,0,0,.05)}
+.post-title a{color:var(--text-color)}
+.post-meta{font-size:.85rem;color:var(--text-color);opacity:.7;margin-bottom:1rem}
+.read-more{display:inline-block;padding:.6rem 1.2rem;background-color:var(--primary-color);color:#fff;border-radius:5px;transition:background-color .2s ease;font-weight:600}
+.read-more:hover{background-color:var(--link-color);color:#fff;opacity:1}
+.widget{background:var(--post-card-bg);padding:1.5rem;border-radius:8px;border:1px solid var(--border-color)}
+.widget-title{font-family:var(--heading-font);font-size:1.2rem;border-bottom:2px solid var(--primary-color);padding-bottom:.5rem;margin-bottom:1rem}
+.widget ul{list-style:none;padding:0;margin:0}
+.widget ul li a{display:block;padding:.5rem 0;border-bottom:1px solid var(--border-color);transition:padding-left .2s}
+.widget ul li a:hover{padding-left:.5rem;color:var(--primary-color)}
 

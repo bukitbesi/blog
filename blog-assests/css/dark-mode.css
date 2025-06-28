@@ -1,1 +1,8 @@
-
+/* dark-mode.css */
+body.dark-mode {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+a { color: #80d0ff; }
+header, footer { background-color: #1e1e1e; }
+.sidebar { background-color: #1a1a1a; }

@@ -1,4 +1,3 @@
-// dark-toggle.js
 document.addEventListener("DOMContentLoaded", function () {
   const toggle = document.getElementById("darkToggle");
   const body = document.body;
@@ -11,4 +10,3 @@ document.addEventListener("DOMContentLoaded", function () {
     localStorage.setItem("theme", body.classList.contains("dark-mode") ? "dark" : "light");
   });
 });
-

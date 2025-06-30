@@ -1,6 +1,6 @@
 /*
 Name: Simplify SEO - Main Scripts
-Version: 1.0
+Version: 1.1
 Author: Grandmaster AI for Bukit Besi
 */
 document.documentElement.classList.remove('no-js');
@@ -157,10 +157,3 @@ document.addEventListener('DOMContentLoaded', () => {
   if (yearSpan) yearSpan.textContent = new Date().getFullYear();
   
 });
-
-// PWA Service Worker
-if ('serviceWorker' in navigator) {
-  window.addEventListener('load', () => {
-    navigator.serviceWorker.register('/service-worker.js').catch(err => console.error('Service Worker registration failed:', err));
-  });
-}

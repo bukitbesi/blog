@@ -1,24 +1,26 @@
-
 {
-  "name": "Bukit Besi Blog",
-  "short_name": "Bukit Besi",
-  "start_url": "/",
-  "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#0984e3",
-  "description": "We simply share anything that everyone enjoys reading, but information can be both good and bad.",
-  "icons": [
-    {
-      "src": "https://cdn.jsdelivr.net/gh/bukitbesi/blog@main/android-chrome-192x192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "https://cdn.jsdelivr.net/gh/bukitbesi/blog@main/android-chrome-512x512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any maskable"
+  "manifest_version": 3,
+  "name": "Gemini Pro Assistant",
+  "version": "1.0",
+  "description": "Interact with Gemini Pro directly from your browser.",
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
     }
-  ]
+  },
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
 }
